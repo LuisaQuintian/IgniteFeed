@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 254px 1fr;
+    gap: 2rem;
+    align-items: flex-start; /* isso evita o comportamento normal de tentar fazer a sidebar ter o mesmo comprimento da main (padrão:stretch), assi fixamos elas no topo. */
+}
