@@ -8,3 +8,12 @@
     gap: 2rem;
     align-items: flex-start; /* isso evita o comportamento normal de tentar fazer a sidebar ter o mesmo comprimento da main (padrão:stretch), assi fixamos elas no topo. */
 }
+
+@media (max-width: 768px) {
+    html {
+      font-size: 87.5%;  
+    }
+   .wrapper {
+    grid-template-columns: 1fr;
+   } 
+}
